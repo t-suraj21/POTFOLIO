@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    /* background-image: url('back3.jpg'); */
+    background-color: aqua;
+    width: 280px;
+    height:100vh;
+    font-family:'fira sans', Arial, sans-serif;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    background-color: rgb(62, 62, 47);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(214, 175, 175), /* Red */
+                0 0 10px rgb(120, 14, 14), /* Green */
+                0 0 10px rgb(181, 166, 26); /* Blue */
+    margin-top: 1rem;
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav li:hover{
+    background-color: rgb(33, 46, 46);
+}
+.blog{
+    margin-left: 2rem;
+}
+.home{
+    margin-left: 2rem;
+}
+.services{
+    margin-left: 1rem;
+}
+.intro{
+    margin-left: 1rem;
+}
+.main{
+    width: 90vw; 
+}
+.sidebarGo{
+    transform: translate(-440px , 0px);
+    position: absolute;
+ }
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+   margin-left: 118px;
+}
+.sidebarGo{
+    transform: translate(-440px , 0px);
+    position: absolute;
+ }
+.hamburger{
+     position: absolute;
+     cursor: pointer;
+     top: 10px;
+     left: 10px;
+}
+.cross{
+    margin-left: 168px;
+}
